@@ -1,0 +1,1336 @@
+{
+  "version": 1,
+  "companies": [
+    {
+      "id": "co1",
+      "name": "شركة النور للتجارة",
+      "customerNumber": "C000124",
+      "sector": "تجارة عامة",
+      "city": "طرابلس"
+    },
+    {
+      "id": "co2",
+      "name": "شركة الأفق للاستيراد",
+      "customerNumber": "C000125",
+      "sector": "استيراد وتوزيع",
+      "city": "بنغازي"
+    },
+    {
+      "id": "co3",
+      "name": "شركة المدار للتقنية",
+      "customerNumber": "C000126",
+      "sector": "تقنية المعلومات",
+      "city": "طرابلس"
+    },
+    {
+      "id": "co4",
+      "name": "شركة الواحة للصناعات",
+      "customerNumber": "C000127",
+      "sector": "صناعات غذائية",
+      "city": "مصراتة"
+    },
+    {
+      "id": "co5",
+      "name": "شركة المرسى للخدمات",
+      "customerNumber": "C000128",
+      "sector": "خدمات لوجستية",
+      "city": "الزاوية"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "ac1",
+      "companyId": "co1",
+      "number": "001234567890",
+      "iban": "LY000000000000001234567890",
+      "currency": "د.ل"
+    },
+    {
+      "id": "ac2",
+      "companyId": "co2",
+      "number": "001234567891",
+      "iban": "LY000000000000001234567891",
+      "currency": "د.ل"
+    },
+    {
+      "id": "ac3",
+      "companyId": "co3",
+      "number": "001234567892",
+      "iban": "LY000000000000001234567892",
+      "currency": "د.ل"
+    },
+    {
+      "id": "ac4",
+      "companyId": "co4",
+      "number": "001234567893",
+      "iban": "LY000000000000001234567893",
+      "currency": "د.ل"
+    },
+    {
+      "id": "ac5",
+      "companyId": "co5",
+      "number": "001234567894",
+      "iban": "LY000000000000001234567894",
+      "currency": "د.ل"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP001",
+      "companyId": "co1",
+      "name": "محمد أحمد علي",
+      "englishName": "MOHAMMED AHMED ALI",
+      "nationalId": "900000000000"
+    },
+    {
+      "id": "EMP002",
+      "companyId": "co1",
+      "name": "أحمد سالم",
+      "englishName": "AHMED SALEM",
+      "nationalId": "900000000100"
+    },
+    {
+      "id": "EMP003",
+      "companyId": "co1",
+      "name": "سارة محمود",
+      "englishName": "SARA MAHMOUD",
+      "nationalId": "900000000200"
+    },
+    {
+      "id": "EMP004",
+      "companyId": "co2",
+      "name": "محمد أحمد علي",
+      "englishName": "MOHAMMED AHMED ALI",
+      "nationalId": "900000001000"
+    },
+    {
+      "id": "EMP005",
+      "companyId": "co2",
+      "name": "أحمد سالم",
+      "englishName": "AHMED SALEM",
+      "nationalId": "900000001100"
+    },
+    {
+      "id": "EMP006",
+      "companyId": "co2",
+      "name": "سارة محمود",
+      "englishName": "SARA MAHMOUD",
+      "nationalId": "900000001200"
+    },
+    {
+      "id": "EMP007",
+      "companyId": "co3",
+      "name": "محمد أحمد علي",
+      "englishName": "MOHAMMED AHMED ALI",
+      "nationalId": "900000002000"
+    },
+    {
+      "id": "EMP008",
+      "companyId": "co3",
+      "name": "أحمد سالم",
+      "englishName": "AHMED SALEM",
+      "nationalId": "900000002100"
+    },
+    {
+      "id": "EMP009",
+      "companyId": "co3",
+      "name": "سارة محمود",
+      "englishName": "SARA MAHMOUD",
+      "nationalId": "900000002200"
+    },
+    {
+      "id": "EMP0010",
+      "companyId": "co4",
+      "name": "محمد أحمد علي",
+      "englishName": "MOHAMMED AHMED ALI",
+      "nationalId": "900000003000"
+    },
+    {
+      "id": "EMP0011",
+      "companyId": "co4",
+      "name": "أحمد سالم",
+      "englishName": "AHMED SALEM",
+      "nationalId": "900000003100"
+    },
+    {
+      "id": "EMP0012",
+      "companyId": "co4",
+      "name": "سارة محمود",
+      "englishName": "SARA MAHMOUD",
+      "nationalId": "900000003200"
+    },
+    {
+      "id": "EMP0013",
+      "companyId": "co5",
+      "name": "محمد أحمد علي",
+      "englishName": "MOHAMMED AHMED ALI",
+      "nationalId": "900000004000"
+    },
+    {
+      "id": "EMP0014",
+      "companyId": "co5",
+      "name": "أحمد سالم",
+      "englishName": "AHMED SALEM",
+      "nationalId": "900000004100"
+    },
+    {
+      "id": "EMP0015",
+      "companyId": "co5",
+      "name": "سارة محمود",
+      "englishName": "SARA MAHMOUD",
+      "nationalId": "900000004200"
+    }
+  ],
+  "cards": [
+    {
+      "id": "card1",
+      "companyId": "co1",
+      "last4": "4821",
+      "reference": "EXT-DEMO-1",
+      "holder": "شركة النور للتجارة",
+      "printedName": "COMPANY CARD",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "card2",
+      "companyId": "co1",
+      "employeeId": "EMP001",
+      "last4": "5792",
+      "reference": "EXT-DEMO-2",
+      "holder": "محمد أحمد علي",
+      "printedName": "MOHAMMED AHMED ALI",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": false,
+      "source": "Manual"
+    },
+    {
+      "id": "card3",
+      "companyId": "co1",
+      "employeeId": "EMP002",
+      "last4": "6763",
+      "reference": "EXT-DEMO-3",
+      "holder": "أحمد سالم",
+      "printedName": "AHMED SALEM",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Suspended",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "card4",
+      "companyId": "co2",
+      "last4": "5142",
+      "reference": "EXT-DEMO-4",
+      "holder": "شركة الأفق للاستيراد",
+      "printedName": "COMPANY CARD",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "card5",
+      "companyId": "co2",
+      "employeeId": "EMP004",
+      "last4": "6113",
+      "reference": "EXT-DEMO-5",
+      "holder": "محمد أحمد علي",
+      "printedName": "MOHAMMED AHMED ALI",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": false,
+      "source": "Manual"
+    },
+    {
+      "id": "card6",
+      "companyId": "co2",
+      "employeeId": "EMP005",
+      "last4": "7084",
+      "reference": "EXT-DEMO-6",
+      "holder": "أحمد سالم",
+      "printedName": "AHMED SALEM",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Suspended",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "card7",
+      "companyId": "co3",
+      "last4": "5463",
+      "reference": "EXT-DEMO-7",
+      "holder": "شركة المدار للتقنية",
+      "printedName": "COMPANY CARD",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "card8",
+      "companyId": "co3",
+      "employeeId": "EMP007",
+      "last4": "6434",
+      "reference": "EXT-DEMO-8",
+      "holder": "محمد أحمد علي",
+      "printedName": "MOHAMMED AHMED ALI",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Replaced",
+      "delivered": false,
+      "source": "Manual"
+    },
+    {
+      "id": "card9",
+      "companyId": "co3",
+      "employeeId": "EMP008",
+      "last4": "7405",
+      "reference": "EXT-DEMO-9",
+      "holder": "أحمد سالم",
+      "printedName": "AHMED SALEM",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Suspended",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "card10",
+      "companyId": "co4",
+      "last4": "5784",
+      "reference": "EXT-DEMO-10",
+      "holder": "شركة الواحة للصناعات",
+      "printedName": "COMPANY CARD",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "card11",
+      "companyId": "co4",
+      "employeeId": "EMP0010",
+      "last4": "6755",
+      "reference": "EXT-DEMO-11",
+      "holder": "محمد أحمد علي",
+      "printedName": "MOHAMMED AHMED ALI",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Replaced",
+      "delivered": false,
+      "source": "Manual"
+    },
+    {
+      "id": "card12",
+      "companyId": "co4",
+      "employeeId": "EMP0011",
+      "last4": "7726",
+      "reference": "EXT-DEMO-12",
+      "holder": "أحمد سالم",
+      "printedName": "AHMED SALEM",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Suspended",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "card13",
+      "companyId": "co5",
+      "last4": "6105",
+      "reference": "EXT-DEMO-13",
+      "holder": "شركة المرسى للخدمات",
+      "printedName": "COMPANY CARD",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "card14",
+      "companyId": "co5",
+      "employeeId": "EMP0013",
+      "last4": "7076",
+      "reference": "EXT-DEMO-14",
+      "holder": "محمد أحمد علي",
+      "printedName": "MOHAMMED AHMED ALI",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": false,
+      "source": "Manual"
+    },
+    {
+      "id": "card15",
+      "companyId": "co5",
+      "employeeId": "EMP0014",
+      "last4": "8047",
+      "reference": "EXT-DEMO-15",
+      "holder": "أحمد سالم",
+      "printedName": "AHMED SALEM",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Suspended",
+      "delivered": true,
+      "source": "Manual"
+    },
+    {
+      "id": "issued-SR-2026-000117",
+      "companyId": "co4",
+      "employeeId": "EMP0010",
+      "last4": "9015",
+      "reference": "EXT-SR-2026-000117",
+      "holder": "شركة الواحة للصناعات",
+      "printedName": "COMPANY CARD",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": false,
+      "source": "Request",
+      "requestId": "SR-2026-000117",
+      "replacementForCardId": "card11"
+    },
+    {
+      "id": "issued-SR-2026-000104",
+      "companyId": "co2",
+      "employeeId": "EMP004",
+      "last4": "9016",
+      "reference": "EXT-SR-2026-000104",
+      "holder": "شركة الأفق للاستيراد",
+      "printedName": "COMPANY CARD",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": false,
+      "source": "Request",
+      "requestId": "SR-2026-000104"
+    },
+    {
+      "id": "issued-SR-2026-000103",
+      "companyId": "co3",
+      "employeeId": "EMP007",
+      "last4": "9017",
+      "reference": "EXT-SR-2026-000103",
+      "holder": "شركة المدار للتقنية",
+      "printedName": "COMPANY CARD",
+      "issuedAt": "2026-01-15",
+      "expiresAt": "2029-01-31",
+      "status": "Active",
+      "delivered": false,
+      "source": "Request",
+      "requestId": "SR-2026-000103",
+      "replacementForCardId": "card8"
+    }
+  ],
+  "services": [
+    {
+      "id": "issue",
+      "name": "إصدار بطاقة جديدة",
+      "description": "بطاقة مسبقة الدفع للشركة أو أحد موظفيها"
+    },
+    {
+      "id": "replace",
+      "name": "إصدار بدل فاقد",
+      "description": "إصدار بطاقة بديلة مع حفظ سجل البطاقة السابقة"
+    },
+    {
+      "id": "status",
+      "name": "تغيير حالة البطاقة",
+      "description": "تفعيل البطاقة أو إيقافها أو إلغاؤها"
+    },
+    {
+      "id": "pin",
+      "name": "طلب رمز سري جديد",
+      "description": "متابعة تنفيذ طلب الرمز السري خارج المنصة"
+    },
+    {
+      "id": "topup",
+      "name": "شحن بطاقة",
+      "description": "شحن البطاقة من الحساب الجاري للشركة"
+    },
+    {
+      "id": "deliver",
+      "name": "تسليم بطاقة",
+      "description": "توثيق تسليم البطاقة وبيانات المستلم"
+    },
+    {
+      "id": "statement",
+      "name": "طلب كشف حساب بطاقة",
+      "description": "طلب كشف الحساب وإرفاقه بصيغة PDF"
+    }
+  ],
+  "requests": [
+    {
+      "id": "SR-2026-000125",
+      "companyId": "co1",
+      "accountId": "ac1",
+      "serviceId": "issue",
+      "status": "Pending",
+      "createdAt": "2026-09-29T09:15:00.000Z",
+      "updatedAt": "2026-09-29T09:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "employeeId": "EMP001",
+        "printedName": "MOHAMMED AHMED ALI"
+      },
+      "history": [
+        {
+          "id": "h0a",
+          "at": "2026-09-29T09:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000124",
+      "companyId": "co2",
+      "accountId": "ac2",
+      "serviceId": "replace",
+      "status": "Pending",
+      "createdAt": "2026-09-29T10:15:00.000Z",
+      "updatedAt": "2026-09-29T10:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card5",
+        "reason": "بناءً على طلب المفوض عن الشركة"
+      },
+      "history": [
+        {
+          "id": "h1a",
+          "at": "2026-09-29T10:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000123",
+      "companyId": "co3",
+      "accountId": "ac3",
+      "serviceId": "status",
+      "status": "Pending",
+      "createdAt": "2026-09-29T11:15:00.000Z",
+      "updatedAt": "2026-09-29T11:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card8",
+        "reason": "بناءً على طلب المفوض عن الشركة",
+        "requestedStatus": "Active"
+      },
+      "history": [
+        {
+          "id": "h2a",
+          "at": "2026-09-29T11:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000122",
+      "companyId": "co4",
+      "accountId": "ac4",
+      "serviceId": "pin",
+      "status": "Pending",
+      "createdAt": "2026-09-29T12:15:00.000Z",
+      "updatedAt": "2026-09-29T12:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card11"
+      },
+      "history": [
+        {
+          "id": "h3a",
+          "at": "2026-09-29T12:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000121",
+      "companyId": "co5",
+      "accountId": "ac5",
+      "serviceId": "topup",
+      "status": "InProgress",
+      "createdAt": "2026-09-28T13:15:00.000Z",
+      "updatedAt": "2026-09-28T13:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card14",
+        "amount": 1900
+      },
+      "history": [
+        {
+          "id": "h4a",
+          "at": "2026-09-28T13:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h4b",
+          "at": "2026-09-28T13:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000120",
+      "companyId": "co1",
+      "accountId": "ac1",
+      "serviceId": "deliver",
+      "status": "InProgress",
+      "createdAt": "2026-09-28T14:15:00.000Z",
+      "updatedAt": "2026-09-28T14:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card2"
+      },
+      "history": [
+        {
+          "id": "h5a",
+          "at": "2026-09-28T14:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h5b",
+          "at": "2026-09-28T14:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000119",
+      "companyId": "co2",
+      "accountId": "ac2",
+      "serviceId": "statement",
+      "status": "InProgress",
+      "createdAt": "2026-09-28T15:15:00.000Z",
+      "updatedAt": "2026-09-28T15:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card5",
+        "from": "2026-09-01",
+        "to": "2026-09-28"
+      },
+      "history": [
+        {
+          "id": "h6a",
+          "at": "2026-09-28T15:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h6b",
+          "at": "2026-09-28T15:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000118",
+      "companyId": "co3",
+      "accountId": "ac3",
+      "serviceId": "issue",
+      "status": "InProgress",
+      "createdAt": "2026-09-28T09:15:00.000Z",
+      "updatedAt": "2026-09-28T09:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "employeeId": "EMP007",
+        "printedName": "MOHAMMED AHMED ALI"
+      },
+      "history": [
+        {
+          "id": "h7a",
+          "at": "2026-09-28T09:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h7b",
+          "at": "2026-09-28T09:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000117",
+      "companyId": "co4",
+      "accountId": "ac4",
+      "serviceId": "replace",
+      "status": "Completed",
+      "createdAt": "2026-09-27T10:15:00.000Z",
+      "updatedAt": "2026-09-27T10:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card11",
+        "reason": "بناءً على طلب المفوض عن الشركة"
+      },
+      "history": [
+        {
+          "id": "h8a",
+          "at": "2026-09-27T10:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h8b",
+          "at": "2026-09-27T10:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        },
+        {
+          "id": "h8c",
+          "at": "2026-09-27T10:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إكمال الطلب"
+        }
+      ],
+      "attachments": [],
+      "issuedCardId": "issued-SR-2026-000117"
+    },
+    {
+      "id": "SR-2026-000116",
+      "companyId": "co5",
+      "accountId": "ac5",
+      "serviceId": "status",
+      "status": "Completed",
+      "createdAt": "2026-09-27T11:15:00.000Z",
+      "updatedAt": "2026-09-27T11:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card14",
+        "reason": "بناءً على طلب المفوض عن الشركة",
+        "requestedStatus": "Active"
+      },
+      "history": [
+        {
+          "id": "h9a",
+          "at": "2026-09-27T11:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h9b",
+          "at": "2026-09-27T11:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        },
+        {
+          "id": "h9c",
+          "at": "2026-09-27T11:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إكمال الطلب"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000115",
+      "companyId": "co1",
+      "accountId": "ac1",
+      "serviceId": "pin",
+      "status": "Completed",
+      "createdAt": "2026-09-27T12:15:00.000Z",
+      "updatedAt": "2026-09-27T12:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card2",
+        "externalConfirmed": true
+      },
+      "history": [
+        {
+          "id": "h10a",
+          "at": "2026-09-27T12:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h10b",
+          "at": "2026-09-27T12:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        },
+        {
+          "id": "h10c",
+          "at": "2026-09-27T12:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إكمال الطلب"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000114",
+      "companyId": "co2",
+      "accountId": "ac2",
+      "serviceId": "topup",
+      "status": "Completed",
+      "createdAt": "2026-09-27T13:15:00.000Z",
+      "updatedAt": "2026-09-27T13:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card5",
+        "amount": 2600,
+        "result": "success",
+        "transactionReference": "TX-DEMO-11",
+        "executionDate": "2026-09-27"
+      },
+      "history": [
+        {
+          "id": "h11a",
+          "at": "2026-09-27T13:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h11b",
+          "at": "2026-09-27T13:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        },
+        {
+          "id": "h11c",
+          "at": "2026-09-27T13:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إكمال الطلب"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000113",
+      "companyId": "co3",
+      "accountId": "ac3",
+      "serviceId": "deliver",
+      "status": "Pending",
+      "createdAt": "2026-09-26T14:15:00.000Z",
+      "updatedAt": "2026-09-26T14:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card8"
+      },
+      "history": [
+        {
+          "id": "h12a",
+          "at": "2026-09-26T14:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000112",
+      "companyId": "co4",
+      "accountId": "ac4",
+      "serviceId": "statement",
+      "status": "Pending",
+      "createdAt": "2026-09-26T15:15:00.000Z",
+      "updatedAt": "2026-09-26T15:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card11",
+        "from": "2026-09-01",
+        "to": "2026-09-28"
+      },
+      "history": [
+        {
+          "id": "h13a",
+          "at": "2026-09-26T15:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000111",
+      "companyId": "co5",
+      "accountId": "ac5",
+      "serviceId": "issue",
+      "status": "Pending",
+      "createdAt": "2026-09-26T09:15:00.000Z",
+      "updatedAt": "2026-09-26T09:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "employeeId": "EMP0013",
+        "printedName": "MOHAMMED AHMED ALI"
+      },
+      "history": [
+        {
+          "id": "h14a",
+          "at": "2026-09-26T09:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000110",
+      "companyId": "co1",
+      "accountId": "ac1",
+      "serviceId": "replace",
+      "status": "Pending",
+      "createdAt": "2026-09-26T10:15:00.000Z",
+      "updatedAt": "2026-09-26T10:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card2",
+        "reason": "بناءً على طلب المفوض عن الشركة"
+      },
+      "history": [
+        {
+          "id": "h15a",
+          "at": "2026-09-26T10:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000109",
+      "companyId": "co2",
+      "accountId": "ac2",
+      "serviceId": "status",
+      "status": "Rejected",
+      "createdAt": "2026-09-25T11:15:00.000Z",
+      "updatedAt": "2026-09-25T11:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card5",
+        "reason": "بناءً على طلب المفوض عن الشركة",
+        "requestedStatus": "Active"
+      },
+      "history": [
+        {
+          "id": "h16a",
+          "at": "2026-09-25T11:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h16c",
+          "at": "2026-09-25T11:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم رفض الطلب: المستندات المرفقة غير مكتملة"
+        }
+      ],
+      "attachments": [],
+      "rejectionReason": "المستندات المرفقة غير مكتملة"
+    },
+    {
+      "id": "SR-2026-000108",
+      "companyId": "co3",
+      "accountId": "ac3",
+      "serviceId": "pin",
+      "status": "Rejected",
+      "createdAt": "2026-09-25T12:15:00.000Z",
+      "updatedAt": "2026-09-25T12:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card8"
+      },
+      "history": [
+        {
+          "id": "h17a",
+          "at": "2026-09-25T12:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h17c",
+          "at": "2026-09-25T12:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم رفض الطلب: المستندات المرفقة غير مكتملة"
+        }
+      ],
+      "attachments": [],
+      "rejectionReason": "المستندات المرفقة غير مكتملة"
+    },
+    {
+      "id": "SR-2026-000107",
+      "companyId": "co4",
+      "accountId": "ac4",
+      "serviceId": "topup",
+      "status": "Rejected",
+      "createdAt": "2026-09-25T13:15:00.000Z",
+      "updatedAt": "2026-09-25T13:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card11",
+        "amount": 3300
+      },
+      "history": [
+        {
+          "id": "h18a",
+          "at": "2026-09-25T13:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h18c",
+          "at": "2026-09-25T13:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم رفض الطلب: المستندات المرفقة غير مكتملة"
+        }
+      ],
+      "attachments": [],
+      "rejectionReason": "المستندات المرفقة غير مكتملة"
+    },
+    {
+      "id": "SR-2026-000106",
+      "companyId": "co5",
+      "accountId": "ac5",
+      "serviceId": "deliver",
+      "status": "Rejected",
+      "createdAt": "2026-09-25T14:15:00.000Z",
+      "updatedAt": "2026-09-25T14:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card14"
+      },
+      "history": [
+        {
+          "id": "h19a",
+          "at": "2026-09-25T14:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h19c",
+          "at": "2026-09-25T14:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم رفض الطلب: المستندات المرفقة غير مكتملة"
+        }
+      ],
+      "attachments": [],
+      "rejectionReason": "المستندات المرفقة غير مكتملة"
+    },
+    {
+      "id": "SR-2026-000105",
+      "companyId": "co1",
+      "accountId": "ac1",
+      "serviceId": "statement",
+      "status": "Completed",
+      "createdAt": "2026-09-24T15:15:00.000Z",
+      "updatedAt": "2026-09-24T15:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card2",
+        "from": "2026-09-01",
+        "to": "2026-09-28"
+      },
+      "history": [
+        {
+          "id": "h20a",
+          "at": "2026-09-24T15:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h20b",
+          "at": "2026-09-24T15:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        },
+        {
+          "id": "h20c",
+          "at": "2026-09-24T15:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إكمال الطلب"
+        }
+      ],
+      "attachments": [
+        {
+          "id": "att20",
+          "name": "كشف-حساب-تجريبي.pdf",
+          "size": 2048,
+          "uploadedAt": "2026-09-24T15:15:00.000Z",
+          "simulated": true
+        }
+      ]
+    },
+    {
+      "id": "SR-2026-000104",
+      "companyId": "co2",
+      "accountId": "ac2",
+      "serviceId": "issue",
+      "status": "Completed",
+      "createdAt": "2026-09-24T09:15:00.000Z",
+      "updatedAt": "2026-09-24T09:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "employeeId": "EMP004",
+        "printedName": "MOHAMMED AHMED ALI"
+      },
+      "history": [
+        {
+          "id": "h21a",
+          "at": "2026-09-24T09:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h21b",
+          "at": "2026-09-24T09:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        },
+        {
+          "id": "h21c",
+          "at": "2026-09-24T09:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إكمال الطلب"
+        }
+      ],
+      "attachments": [],
+      "issuedCardId": "issued-SR-2026-000104"
+    },
+    {
+      "id": "SR-2026-000103",
+      "companyId": "co3",
+      "accountId": "ac3",
+      "serviceId": "replace",
+      "status": "Completed",
+      "createdAt": "2026-09-24T10:15:00.000Z",
+      "updatedAt": "2026-09-24T10:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card8",
+        "reason": "بناءً على طلب المفوض عن الشركة"
+      },
+      "history": [
+        {
+          "id": "h22a",
+          "at": "2026-09-24T10:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h22b",
+          "at": "2026-09-24T10:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        },
+        {
+          "id": "h22c",
+          "at": "2026-09-24T10:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إكمال الطلب"
+        }
+      ],
+      "attachments": [],
+      "issuedCardId": "issued-SR-2026-000103"
+    },
+    {
+      "id": "SR-2026-000102",
+      "companyId": "co4",
+      "accountId": "ac4",
+      "serviceId": "status",
+      "status": "Completed",
+      "createdAt": "2026-09-24T11:15:00.000Z",
+      "updatedAt": "2026-09-24T11:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card11",
+        "reason": "بناءً على طلب المفوض عن الشركة",
+        "requestedStatus": "Active"
+      },
+      "history": [
+        {
+          "id": "h23a",
+          "at": "2026-09-24T11:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h23b",
+          "at": "2026-09-24T11:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "بدأ تنفيذ الطلب"
+        },
+        {
+          "id": "h23c",
+          "at": "2026-09-24T11:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إكمال الطلب"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000101",
+      "companyId": "co5",
+      "accountId": "ac5",
+      "serviceId": "pin",
+      "status": "Cancelled",
+      "createdAt": "2026-09-23T12:15:00.000Z",
+      "updatedAt": "2026-09-23T12:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card14"
+      },
+      "history": [
+        {
+          "id": "h24a",
+          "at": "2026-09-23T12:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h24c",
+          "at": "2026-09-23T12:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إلغاء الطلب بناءً على طلب الشركة"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000100",
+      "companyId": "co1",
+      "accountId": "ac1",
+      "serviceId": "topup",
+      "status": "Cancelled",
+      "createdAt": "2026-09-23T13:15:00.000Z",
+      "updatedAt": "2026-09-23T13:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card2",
+        "amount": 4000
+      },
+      "history": [
+        {
+          "id": "h25a",
+          "at": "2026-09-23T13:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h25c",
+          "at": "2026-09-23T13:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إلغاء الطلب بناءً على طلب الشركة"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000099",
+      "companyId": "co2",
+      "accountId": "ac2",
+      "serviceId": "deliver",
+      "status": "Cancelled",
+      "createdAt": "2026-09-23T14:15:00.000Z",
+      "updatedAt": "2026-09-23T14:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card5"
+      },
+      "history": [
+        {
+          "id": "h26a",
+          "at": "2026-09-23T14:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h26c",
+          "at": "2026-09-23T14:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إلغاء الطلب بناءً على طلب الشركة"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "SR-2026-000098",
+      "companyId": "co3",
+      "accountId": "ac3",
+      "serviceId": "statement",
+      "status": "Cancelled",
+      "createdAt": "2026-09-23T15:15:00.000Z",
+      "updatedAt": "2026-09-23T15:15:00.000Z",
+      "createdBy": "أحمد محمد",
+      "notes": "بيانات خيالية مخصصة للعرض التجريبي.",
+      "details": {
+        "cardId": "card8",
+        "from": "2026-09-01",
+        "to": "2026-09-28"
+      },
+      "history": [
+        {
+          "id": "h27a",
+          "at": "2026-09-23T15:15:00.000Z",
+          "actor": "أحمد محمد",
+          "text": "تم إنشاء الطلب وإرساله للتنفيذ"
+        },
+        {
+          "id": "h27c",
+          "at": "2026-09-23T15:15:00.000Z",
+          "actor": "محمد سالم",
+          "text": "تم إلغاء الطلب بناءً على طلب الشركة"
+        }
+      ],
+      "attachments": []
+    }
+  ]
+}
